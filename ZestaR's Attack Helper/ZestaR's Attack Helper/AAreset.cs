@@ -72,6 +72,8 @@ namespace ZestaR_s_Attack_Helper
                     break;
                 case "Yorick": Reset = new Spell(SpellSlot.Q);
                     break;
+                case "Tristana": Reset = new Spell(SpellSlot.E);
+                    break;
                 case "MasterYi":
                     Reset = new Spell(SpellSlot.W);
                     Special = true;
