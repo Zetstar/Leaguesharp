@@ -162,6 +162,7 @@ namespace ZestaR_s_Attack_Helper
         {
             if (unit.IsMe && target.IsValidTarget())
             {
+                var championName = Player.ChampionName;
                 if (target.Type == GameObjectType.obj_AI_Hero && (Menu.Item("ChampEnabled").GetValue<KeyBind>().Active || (Menu.Item("ChampActive").GetValue<KeyBind>().Active)))
                 {
                     if (AAreset.Special == true)
@@ -171,6 +172,12 @@ namespace ZestaR_s_Attack_Helper
                             () => ObjectManager.Player.IssueOrder(GameObjectOrder.AttackUnit, target));
 
                         //ObjectManager.Player.IssueOrder(GameObjectOrder.AttackUnit, target);
+                    }
+                    else if (championName == "Tristana")
+                    {
+                        var eTarget = TargetSelector.GetTarget(703, TargetSelector.DamageType.Physical);
+                        if (AAreset.Reset.IsReady() && eTarget.IsValidTarget())
+                            AAreset.Reset.CastOnUnit(eTarget);
                     }
                     else
                     {
