@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZestaR's Attack Helper", "ZestaR's Attack Helper\ZestaR's Attack Helper.csproj", "{1FBE7DBD-3B5B-4414-9026-9C255DF9E072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mata Awareness", "Mata Awareness\Mata Awareness.csproj", "{737CD61E-806A-4911-9117-9D59526CD1CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1FBE7DBD-3B5B-4414-9026-9C255DF9E072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FBE7DBD-3B5B-4414-9026-9C255DF9E072}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FBE7DBD-3B5B-4414-9026-9C255DF9E072}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FBE7DBD-3B5B-4414-9026-9C255DF9E072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737CD61E-806A-4911-9117-9D59526CD1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737CD61E-806A-4911-9117-9D59526CD1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737CD61E-806A-4911-9117-9D59526CD1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737CD61E-806A-4911-9117-9D59526CD1CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
